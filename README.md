@@ -2,8 +2,7 @@
 Res Inn - A fictional BNB running ResBooker 
 ===================================================================================
 
-Since the instructions for this exercise forbid the use of an existing web framework, I felt the need to build one from scratch just for this project; a framework may be 
-overkill however after going through ResRequests online presence - the design of this framework was intended to replicate a real world scenario as closely as possible therefore i designed the architecture to scale to the needs of ResRequest's clientbase.
+Since the instructions for this exercise forbid the use of an existing web framework, I felt the need to build one from scratch just for the purposes of organizing my code as if it were a real world application, taking into account the various scenarios that may occur in future and provisioning the app for such scalability.
 
 The ResBooker framework follows PHP's PSR-4 standard for namespacing classes and as such only one external PHP library was utilized , i.e. composer to handle dependency 
 injection as composer is now widely adopted by the PHP community at large.
@@ -37,16 +36,16 @@ NOTES:
 
 These are the list of things i could do better but due to my work commitments and limited time i have had to leave them out for this task:
 
-=> Improve security , CSRF protection on forms.
-=> Captcha on forms
-=> Added an authentication system for CRUD operations for the Inn's admin to manage rooms.
-=> Cleaned up design elements a bit better.
-=> Unit tests.
-=> Improve the Migration class to be more robust.
-=> Improved routes to handle more complicated routing.
-=> Email reservation off to client and admin.
-=> Price switching based on season. I have made provision for this in the db.
-=> Credit card billing. Made provision for this paid - tinyint boolean to keep track
+1. Improve security , CSRF protection on forms.
+2. Captcha on forms
+3. Added an authentication system for CRUD operations for the Inn's admin to manage rooms.
+4. Cleaned up design elements a bit better.
+5. Unit tests.
+6. Improve the Migration class to be more robust.
+7. Improved routes to handle more complicated routing.
+8. Email reservation off to client and admin.
+9. Price switching based on season. I have made provision for this in the db.
+10. Credit card billing. Made provision for this paid - tinyint boolean to keep track
    of payment , and paid_amount decimal to keep track of deposit / amount paid.
 
 
