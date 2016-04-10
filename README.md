@@ -2,8 +2,8 @@
 Res Inn - A fictional BNB running ResBooker 
 ===================================================================================
 
-Since the instructions for this exercise forbid the use of an existing web framework, i felt the need to build one from scratch just for this project; a framework may be 
-overkill however after going through ResRequests online presence - the design of this framework was intended to replicate a real world scenario as closely as possible therefore i designed this architecture to scale ResRequests clientbase.
+Since the instructions for this exercise forbid the use of an existing web framework, I felt the need to build one from scratch just for this project; a framework may be 
+overkill however after going through ResRequests online presence - the design of this framework was intended to replicate a real world scenario as closely as possible therefore i designed the architecture to scale to the needs of ResRequest's clientbase.
 
 The ResBooker framework follows PHP's PSR-4 standard for namespacing classes and as such only one external PHP library was utilized , i.e. composer to handle dependency 
 injection as composer is now widely adopted by the PHP community at large.
