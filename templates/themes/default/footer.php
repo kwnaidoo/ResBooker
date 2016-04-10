@@ -145,7 +145,7 @@
         });
 
         function toggleRoomSelection(room_id){
-            $.post( "<?php print BASE_URL;?>Reservations/add_rooms",{"room_id": room_id})
+            $.post( "<?php print BASE_URL;?>Reservations/toggle_room",{"room_id": room_id})
             .done(function(response){
 
                 response = JSON.parse(response);

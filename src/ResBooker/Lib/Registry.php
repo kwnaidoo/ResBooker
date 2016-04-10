@@ -1,6 +1,15 @@
 <?php
 namespace Resbooker\Lib;
 
+/**
+A Singleton class to maintain application level state i.e. allow
+sharing of data , objects, arrays etc... between controllers, models
+and other framework classes.
+
+This ensures that only one instance of those bits of data exists in the 
+current application lifecircle.
+
+**/
 class Registry{
 	private $data = [];
 

@@ -2,8 +2,10 @@
 namespace ResBooker\Models;
 use ResBooker\Models\Model;
 
+// maps to the rooms table
 class Room extends Model{
 
+	// Will return the count of rooms available for the time period selected by client. 
 	function total_rooms($check_in_datetime, $check_out_datetime){
 		$sql = "select count(id) as count FROM rooms WHERE";
 		$sql .= " id not in(select room_id from reserved_rooms";
@@ -20,6 +22,7 @@ class Room extends Model{
 
 	}
 
+	// will return an array of PDO objects of available rooms
 	function get_rooms($check_in_datetime, $check_out_datetime, $offset, $limit){
 		$sql = "select id, name, description, price_normal FROM rooms WHERE";
 		$sql .= " id not in(select room_id from reserved_rooms";
