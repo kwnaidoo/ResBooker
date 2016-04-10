@@ -60,17 +60,17 @@ ADDITIONAL RESOURCES:
 Framework outline:
 -----------------
 
-bin/ -- contains the migration command , this directory was designed to store all php console tasks.
-migrations/ -- stores all migration files which each should return an array of SQL statements grouped by type i.e. "up" and "down"
-public/ -- this is the public facing folder containing a basic framework bootstrap and dispatcher "index.php" and as well as project assets.
-src/ -- Contains all the PSR-4 compliant classes and folders.
-src/Config -- for settings files
-src/Controllers -- to place all project controllers.
-src/Models -- to place all project models.
-src/Lib -- all Library classes generally stores framework core classes.
-templates/ -- stores all view files , view files should be placed in sub folders named after the controller in lower case and underscored.
-templates/themes -- stores application skin files to control design and layout of application.
-vendor/  -- for all third party code , right now only contains the composer library code.
-composer.json -- composer config file.
-routes.php -- file containing an array of routes.
-runserver.sh -- shell script to start the app.
+1. bin/ -- contains the migration command , this directory was designed to store all php console tasks.
+2. migrations/ -- stores all migration files which each should return an array of SQL statements grouped by type i.e. "up" and "down"
+3. public/ -- this is the public facing folder containing a basic framework bootstrap and dispatcher "index.php" and as well as project assets.
+4. src/ -- Contains all the PSR-4 compliant classes and folders.
+5. src/Config -- for settings files
+6. src/Controllers -- to place all project controllers.
+7. src/Models -- to place all project models.
+8. src/Lib -- all Library classes generally stores framework core classes.
+9. templates/ -- stores all view files , view files should be placed in sub folders named after the controller in lower case and underscored.
+10. templates/themes -- stores application skin files to control design and layout of application.
+11. vendor/  -- for all third party code , right now only contains the composer library code.
+12. composer.json -- composer config file.
+13. routes.php -- file containing an array of routes.
+14. runserver.sh -- shell script to start the app.
