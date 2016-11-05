@@ -2,9 +2,7 @@
 Res Inn - A fictional BNB running ResBooker 
 ===================================================================================
 
-Since the instructions for this exercise forbid the use of an existing web framework, I felt the need to build one from scratch just for the purposes of organizing my code as if it were a real world application, taking into account the various scenarios that may occur in future and provisioning the app for such scalability.
-
-The ResBooker framework follows PHP's PSR-4 standard for namespacing classes and as such only one external PHP library was utilized , i.e. composer to handle dependency 
+ResBooker is a bnb booking framework that follows PHP's PSR-4 standard for namespacing classes and as such only one external PHP library was utilized , i.e. composer to handle dependency 
 injection as composer is now widely adopted by the PHP community at large.
 
 ===================
