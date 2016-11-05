@@ -1,8 +1,8 @@
 ===================================================================================
-Res Inn - A fictional BNB running ResBooker 
+Res Inn - fully functional frontend template running ResBooker 
 ===================================================================================
 
-ResBooker is a bnb booking framework that follows PHP's PSR-4 standard for namespacing classes and as such only one external PHP library was utilized , i.e. composer to handle dependency 
+ResBooker is a bnb booking framework built from scratch that follows PHP's PSR-4 standard for namespacing classes and as such only one external PHP library was utilized , i.e. composer to handle dependency 
 injection as composer is now widely adopted by the PHP community at large.
 
 ===================
