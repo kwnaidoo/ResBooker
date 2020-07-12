@@ -1,13 +1,10 @@
-===================================================================================
-Res Inn - fully functional frontend template running ResBooker 
-===================================================================================
+
+**Res Inn - A BNB CMS framework**
 
 ResBooker is a bnb booking framework built from scratch that follows PHP's PSR-4 standard for namespacing classes and as such only one external PHP library was utilized , i.e. composer to handle dependency 
 injection as composer is now widely adopted by the PHP community at large.
 
-===================
-Setup Instructions
-===================
+**Setup Instructions**
 
 The application is fully self contained and as such you only need three things to run this software:
 
@@ -32,7 +29,7 @@ NOTE: you can pass in a port number in step 5 if 8001 is a problem for you , how
 NOTES:
 ==========
 
-These are the list of things i could do better but due to my work commitments and limited time i have had to leave them out for this task:
+These are the list of things I could do better but since this is just a prototype concept project and I have limited time - they have not been implemented:
 
 1. Improve security , CSRF protection on forms.
 2. Captcha on forms
